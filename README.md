@@ -70,7 +70,33 @@ Modules in Terraform
 1. renamed main.tf to main_before_module.tf and created new one
 2. copied main, variables and output.tf of https://gitlab.com/nanuchi/terraform-learn/-/tree/feature/modules?ref_type=heads
 3. created folders for modules webserver and subnet and created main.tf, outputs.tf and variables.tf
-4. 
+4. performed terraform init and apply
+5. destroyed afterwards
+
+--------------------------------------------------
+
+Automate Provisioning EKS cluster with Terraform
+1. copied files of https://gitlab.com/nanuchi/terraform-learn/-/tree/feature/eks
+2. created terraform.tfvars file
+3. updated kubeconfig file to be able to communicate with eks cluster
+4. applied nginx-config.yaml
+
+--------------------------------------------------
+
+CI/CD with Terraform
+
+1. copied files of https://gitlab.com/nanuchi/java-maven-app/-/tree/feature/sshagent-terraform
+2. created new SSH keypair in AWS for Jenkins
+3. installed terraform in jenkins container as root user
+4. changed values in variables.tf to my own needs (e.g jenkins running locally on my proxmox host)
+5. built pipeline
+
+--------------------------------------------------
+
+Remote State in Terraform
+
+1. added S3 bucket in AWS and added config for bucket in main.tf
+2. built pipeline
 
 --------------------------------------------------
 
