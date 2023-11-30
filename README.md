@@ -59,4 +59,16 @@ Automate Provisioning EC2 with Terraform
 
 --------------------------------------------------
 
+Provisioners in Terraform
+1. copied main.tf of https://gitlab.com/nanuchi/terraform-learn/-/tree/feature/provisioners
+2. changed vars in tfvars file
+3. undertood term of provisioners and why it should not be used in terraform
+
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+
+
 Reference: DevOps Bootcamp and TWN

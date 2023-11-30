@@ -1,4 +1,8 @@
-vpc_cidr_block = ""
-subnet_1_cidr_block = ""
-avail_zone = ""
-env_prefix = ""
+vpc_cidr_block {}
+subnet_cidr_block {}
+avail_zone {}
+env_prefix {}
+my_ip {}
+instance_type {}
+public_key_location {}
+private_key_location {}
