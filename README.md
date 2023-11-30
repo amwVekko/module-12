@@ -66,7 +66,11 @@ Provisioners in Terraform
 
 --------------------------------------------------
 
-
+Modules in Terraform
+1. renamed main.tf to main_before_module.tf and created new one
+2. copied main, variables and output.tf of https://gitlab.com/nanuchi/terraform-learn/-/tree/feature/modules?ref_type=heads
+3. created folders for modules webserver and subnet and created main.tf, outputs.tf and variables.tf
+4. 
 
 --------------------------------------------------
 
